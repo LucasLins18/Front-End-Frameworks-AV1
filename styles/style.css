@@ -1,0 +1,112 @@
+/* Esqueletos das páginas */
+body {
+  color: #4c4c4c;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Início menu hamburguer */
+span#menu {
+  background-color: #2e7ebc;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  cursor: pointer;
+}
+
+span#menu:hover {
+  background-color: #3996c4;
+  color: #4c4c4c;
+}
+
+nav {
+  display: none;
+  list-style-type: none;
+}
+
+nav a:hover {
+  color: #4c4c4c;
+}
+/* fim do menu hamburguer */
+/* Início das configurações do menu */
+nav ul {
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 16px;
+}
+
+a {
+  color: #3996c4;
+  text-decoration: none;
+}
+/* Fim das configurações do menu */
+
+/* Configuração da logo */
+.logo {
+  text-align: center;
+}
+/* Fim da configuração da logo*/
+/* Margem geral da página e corpo do texto */
+.margem {
+  padding: 0px 50px;
+  text-align: center;
+}
+main :hover {
+  color: #4c4c4c;
+}
+
+p {
+  text-align: justify;
+}
+/* Fim da margem geral da página e corpo do texto*/
+/* Inicio dados de cadastro */
+.input-box {
+  margin-bottom: 0.5rem;
+}
+
+.input-box input:hover {
+  background-color: #3996c4;
+}
+
+.input-box input::placeholder {
+  color: #2e7ebc;
+}
+
+/* Fim dados de cadastro */
+/* Início do footer */
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2px;
+  height: 35px;
+  background-color: #2e7ebc;
+  margin: 0 auto;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+}
+
+footer > a {
+  margin: 5px;
+  text-align: center;
+  color: #4c4c4c;
+}
+
+footer a:hover {
+  color: #3996c4;
+  float: center;
+}
+
+.copy {
+  color: #4c4c4c;
+  padding: 1px;
+  text-align: center;
+  background-color: white;
+}
+/* Fim do footer */
+/* Fim dos esqueletos das páginas */
